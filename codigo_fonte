@@ -1,0 +1,30 @@
+# 📊 Código Fonte - Detecção de Fake News com BERT Multilíngue
+
+## 📌 Descrição
+
+Este diretório contém os notebooks utilizados no projeto de detecção de fake news em textos, comparando duas abordagens de NLP:
+
+- Fine-tuning completo do BERT
+- Arquitetura MAD-X com Adapters
+
+---
+
+## 📁 Arquivos
+
+- `https://colab.research.google.com/drive/1sHSVDkFFg57PfsAuF6EO_xw2kroT831B?usp=sharing`  
+  Implementação do modelo BERT com fine-tuning tradicional para classificação de fake news.
+
+- `https://colab.research.google.com/drive/1_e63N7DaXQA6ylpmFCURpQ1gkhXdERFP?usp=sharing`  
+  Implementação baseada em Adapters (MAD-X), utilizando camadas adicionais para adaptação eficiente do modelo.
+
+- `requirements.txt`  
+  Lista de dependências necessárias para execução do projeto.
+
+---
+
+## ⚙️ Como executar
+
+### 1. Instalar dependências
+
+```bash
+pip install -r requirements.txt
